@@ -26,15 +26,6 @@ mcp_servers:
     # Configure auth using the method supported by your WRM deployment.
 ```
 
-If the plugin includes helper tools that call the MCP server, grant only that server to the plugin:
-
-```yaml
-plugins:
-  entries:
-    hermes-wrm-pro:
-      mcp_allowlist: ["wrm"]
-```
-
 Then restart/reload Hermes and inspect available MCP tools. Exact tool names depend on the WRM Pro server version and enabled scopes.
 
 ## Safety
