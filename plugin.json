@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agentplugins.org/schemas/plugin.schema.json",
+  "name": "hermes-wrm-pro",
+  "version": "0.1.0",
+  "description": "A guided Hermes skill for working with an existing WRM Pro MCP server.",
+  "author": "vedranius",
+  "license": "MIT",
+  "repository": "https://github.com/vedranius/hermes-wrm-pro",
+  "keywords": ["hermes", "wrm", "remote-management", "mcp"],
+  "skills": ["skills/wrm-pro"]
+}
